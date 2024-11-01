@@ -1302,6 +1302,38 @@
 				"urljx",
 				"url parse"
 			]
+		},
+		{
+			"name": "asn1",
+			"feature": "asn1",
+			"keyword": [
+				"asn1",
+				"ASN.1解码",
+				"ASN.1 Decode"
+			],
+			"search": [
+				"asn1",
+				"asn.1解码",
+				"asn.1jiema",
+				"asn.1jm",
+				"asn.1 decode"
+			]
+		},
+		{
+			"name": "dockerCompose",
+			"feature": "dockerCompose",
+			"keyword": [
+				"dockerCompose",
+				"Docker run到Compose",
+				"Docker run to Compose"
+			],
+			"search": [
+				"dockercompose",
+				"docker run到compose",
+				"docker rundaocompose",
+				"docker rundcompose",
+				"docker run to compose"
+			]
 		}
 	],
 	"i18n": {
@@ -1447,8 +1479,8 @@
 				"component_editor_search": {
 					"message": "查找/替换"
 				},
-				"component_editor_copy_with_style": {
-					"message": "复制(带样式)"
+				"component_editor_inline": {
+					"message": "内联模式"
 				},
 				"component_click_help": {
 					"message": "点击查看说明文档"
@@ -2020,6 +2052,12 @@
 				"tool_urlParse": {
 					"message": "Url解析"
 				},
+				"tool_asn1": {
+					"message": "ASN.1解码"
+				},
+				"tool_dockerCompose": {
+					"message": "Docker run到Compose"
+				},
 				"tool_hash_hash": {
 					"message": "哈希(hash)"
 				},
@@ -2287,6 +2325,18 @@
 				"tool_urlParse_urlParse_keywords": {
 					"message": ""
 				},
+				"tool_asn1_asn1": {
+					"message": "ASN.1解码"
+				},
+				"tool_asn1_asn1_keywords": {
+					"message": ""
+				},
+				"tool_dockerCompose_dockerCompose": {
+					"message": "Docker run到Compose"
+				},
+				"tool_dockerCompose_dockerCompose_keywords": {
+					"message": ""
+				},
 				"hash_uppercase": {
 					"message": "大写"
 				},
@@ -2436,6 +2486,9 @@
 				},
 				"json_jmes_path": {
 					"message": "JMESPath"
+				},
+				"json_line_info": {
+					"message": "长度"
 				},
 				"qrCode_generate_option_common": {
 					"message": "常用"
@@ -4206,6 +4259,12 @@
 				},
 				"hmac_multiple_tooltip": {
 					"message": "按行执行操作"
+				},
+				"asn1_input_der_text": {
+					"message": "请输入ASN.1 DER格式文本"
+				},
+				"asn1_output_result": {
+					"message": "解码结果"
 				}
 			},
 			"en": {
@@ -4335,8 +4394,8 @@
 				"component_editor_search": {
 					"message": "Find/Replace"
 				},
-				"component_editor_copy_with_style": {
-					"message": "Copy With Style"
+				"component_editor_inline": {
+					"message": "Inline"
 				},
 				"component_click_help": {
 					"message": "Click to view the help document"
@@ -4890,6 +4949,12 @@
 				"tool_urlParse": {
 					"message": "Url Parse"
 				},
+				"tool_asn1": {
+					"message": "ASN.1 Decode"
+				},
+				"tool_dockerCompose": {
+					"message": "Docker run to Compose"
+				},
 				"tool_hash_hash": {
 					"message": "Hash"
 				},
@@ -5175,6 +5240,18 @@
 				"tool_urlParse_urlParse_keywords": {
 					"message": ""
 				},
+				"tool_asn1_asn1": {
+					"message": "ASN.1 Decode"
+				},
+				"tool_asn1_asn1_keywords": {
+					"message": ""
+				},
+				"tool_dockerCompose_dockerCompose": {
+					"message": "Docker run to Compose"
+				},
+				"tool_dockerCompose_dockerCompose_keywords": {
+					"message": ""
+				},
 				"hash_uppercase": {
 					"message": "Uppercase"
 				},
@@ -5324,6 +5401,9 @@
 				},
 				"json_jmes_path": {
 					"message": "JMESPath"
+				},
+				"json_line_info": {
+					"message": "Length"
 				},
 				"qrCode_generate_option_common": {
 					"message": "Common"
@@ -7094,6 +7174,12 @@
 				},
 				"hmac_multiple_tooltip": {
 					"message": "Operation By Row"
+				},
+				"asn1_input_der_text": {
+					"message": "Please enter ASN.1 DER text"
+				},
+				"asn1_output_result": {
+					"message": "decode result"
 				}
 			}
 		}
