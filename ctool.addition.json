@@ -2794,6 +2794,9 @@
 				"regex_ignore_case": {
 					"message": "忽略大小写"
 				},
+				"regex_muti_line": {
+					"message": "多行"
+				},
 				"regex_output_count": {
 					"message": "共 {0} 个匹配项",
 					"placeholders": [
@@ -5708,6 +5711,9 @@
 				},
 				"regex_ignore_case": {
 					"message": "Ignore Case"
+				},
+				"regex_muti_line": {
+					"message": "Muti-line"
 				},
 				"regex_output_count": {
 					"message": "{0} Total Matches",
